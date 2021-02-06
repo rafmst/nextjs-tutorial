@@ -1,10 +1,18 @@
+import Head from 'next/head'
+
 const Painters = () => {
   return (
-    <div>
-      <h1>All Painters</h1>
-      <p>Lorem ipsum lorem ipsum</p>
-    </div>
-  );
+    <>
+      <Head>
+        <title>Painters | List</title>
+        <meta name="keywords" content="painters" />
+      </Head>
+      <div>
+        <h1>All Painters</h1>
+        <p>Lorem ipsum lorem ipsum</p>
+      </div>
+    </>
+  )
 }
 
-export default Painters;
+export default Painters
